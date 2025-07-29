@@ -19,7 +19,7 @@ const About = () => (
   <section className="p-8">
     <h2 className="text-3xl font-semibold mb-4">About Us</h2>
     <p className="text-lg leading-relaxed">
-      Gitte Services is a trusted name in the Indian insurance ecosystem, proudly continuing a 30+ year family legacy. Our founder Pratik Bhagwat Gitte and father Mr. Bhagwat Gitte are certified agents for ICICI Lombard, Bajaj Allianz, LIC, New India Assurance, Care Health, and more.
+      Gitte Insurance Services is a trusted name in the Indian insurance ecosystem, proudly continuing a 30+ year family legacy. Our founder Pratik Bhagwat Gitte and father Mr. Bhagwat Gitte are certified agents for ICICI Lombard, Bajaj Allianz, LIC, New India Assurance, Care Health, and more.
     </p>
   </section>
 );
@@ -62,7 +62,7 @@ const Contact = () => (
 const Header = () => (
   <header className="bg-blue-800 text-white p-4 shadow">
     <nav className="flex justify-between items-center max-w-6xl mx-auto">
-      <h1 className="text-2xl font-bold">Gitte Services</h1>
+      <h1 className="text-2xl font-bold">Gitte Insurance Services</h1>
       <div className="space-x-4">
         <Link to="/" className="hover:underline">Home</Link>
         <Link to="/about" className="hover:underline">About</Link>
