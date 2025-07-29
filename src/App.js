@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const Home = () => (
   <section className="p-8 text-center">
-    <h1 className="text-4xl font-bold mb-4">Welcome to Gitte Services</h1>
+    <h1 className="text-4xl font-bold mb-4">Welcome to Gitte Insurance Services</h1>
     <p className="text-lg mb-6">Empowering India with trusted insurance and financial solutions backed by 30+ years of legacy.</p>
     <a
       href="https://wa.me/919860191711?text=Hello%20Gitte%20Services%2C%20I%20want%20to%20know%20about%20insurance%20plans."
@@ -34,7 +34,7 @@ const Services = () => (
         { name: "Motor Insurance", desc: "Two-wheeler, car, and commercial vehicle coverage with instant policy issuance." },
         { name: "Travel Insurance", desc: "Stay protected wherever you go across the globe." },
         { name: "Personal Accident Cover", desc: "Financial security against unforeseen events." },
-        { name: "Agent Onboarding", desc: "Become a POSP under Gitte Services and grow with us." },
+        { name: "Agent Onboarding", desc: "Become a POSP under Gitte Insurance Services and grow with us." },
       ].map((s, i) => (
         <div key={i} className="p-4 shadow rounded-xl bg-white border border-gray-200">
           <h3 className="text-xl font-semibold mb-2">{s.name}</h3>
